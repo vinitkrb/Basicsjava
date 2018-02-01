@@ -1,0 +1,13 @@
+package com.vk.basic;
+
+public class PhraseOMatic {
+
+	public static void main(String[] args)
+	{
+		String[] wordListOne ::: {"24/7" /'multiTiar","30,OOO
+			foot", "B-to-B" , "win-win" , "frontend"
+			, "web- based" , "pervasive", "smart", "sixsigma",
+			"cri tical-path" , "dynamic"} j
+	}
+
+}

@@ -1,0 +1,11 @@
+package com.vk.musicPlayer;
+
+import javax.sound.midi.Sequencer;
+
+public class MusicTest1 
+{
+public void play()
+{
+	Sequencer sequencer=
+}
+}

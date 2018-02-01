@@ -1,0 +1,67 @@
+package com.hm.vinit.collection.hashset;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class ListEx 
+{
+	public static void main(String args[]) 
+	{
+		List<String> Emp = new ArrayList<>();
+		
+		
+		Emp.add("Vinit");
+		Emp.add("Jyothi");
+		Emp.add("Janani");
+		Emp.add(1,"Ram");
+		System.out.println(Emp);
+		
+		ArrayList<Integer> EmpId = new ArrayList<Integer>();
+		EmpId.add(0001);
+		EmpId.add(0002);
+		EmpId.add(0003);
+		EmpId.add(0004);
+		
+		System.out.println(EmpId);
+		EmpId.clear();
+		System.out.println(EmpId);
+		
+		if (Emp.contains("Ravi"))
+		{
+		    System.out.println("Found the element");
+		} 
+		else 
+		{
+		    System.out.println("There is no such element");
+		}
+		
+		if (Emp.contains("Vinit")) 
+		{
+		    System.out.println("Found the element");
+		} 
+		else 
+		{
+		    System.out.println("There is no such element");
+		}
+	
+		ArrayList<String> HM = new ArrayList<>();
+		HM.ensureCapacity(1000);
+		String e = Emp.get(3);
+		System.out.println("4th Name in Emp List: "+e);
+		System.out.println("Emp List is empty ? "+Emp.isEmpty());
+		System.out.println("Index of Vinit  = "+Emp.indexOf("Vinit"));
+		System.out.println("Last index of D = "+Emp.lastIndexOf("Janani"));
+		String removed = Emp.remove(3);
+		System.out.println("After removing '"+removed+"' Emp contains "+Emp);
+		
+		HM.add("Vinit");
+		HM.add("Ankit");
+		
+		Emp.retainAll(HM);
+		System.out.println("After Retain: "+Emp);
+		System.out.println("After Retain Emp List Size= "+Emp.size());
+		Emp.set(0, "Ravi");
+		Emp.set(1, "Rajesh");
+		System.out.println(Emp);
+	}
+}

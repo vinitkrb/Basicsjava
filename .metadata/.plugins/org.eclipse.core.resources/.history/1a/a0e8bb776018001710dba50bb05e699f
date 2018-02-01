@@ -1,0 +1,34 @@
+package com.vk.musicPlayer;
+
+import javax.sound.midi.InvalidMidiDataException;
+import javax.sound.midi.MidiSystem;
+import javax.sound.midi.MidiUnavailableException;
+import javax.sound.midi.Sequence;
+import javax.sound.midi.Sequencer;
+import javax.sound.midi.Track;
+
+public class MusicTest1 
+{
+public void play() throws InvalidMidiDataException 
+{
+	try
+	{
+		
+	
+	Sequencer sequencer=MidiSystem.getSequencer();
+	sequencer.open();
+	Sequence seq=new Sequence(Sequence.PPQ,4);
+	Track track=seq.createTrack();
+	System.out.println("We got a music plater");
+	}
+	catch(MidiUnavailableException ex)
+	{
+		System.out.println("BUMMER");
+	}
+}
+public static void main(String [] args) throws InvalidMidiDataException 
+{
+	MusicTest1 m=new MusicTest1();
+	m.play();
+}
+}

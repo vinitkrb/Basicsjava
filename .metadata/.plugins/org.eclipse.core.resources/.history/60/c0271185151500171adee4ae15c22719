@@ -1,0 +1,8 @@
+package com.vk.basic;
+
+public class Books
+{
+	String title;
+	String author;
+}
+

@@ -1,0 +1,31 @@
+package com.vk.musicPlayer;
+
+import javax.sound.midi.MidiSystem;
+import javax.sound.midi.MidiUnavailableException;
+import javax.sound.midi.Sequence;
+import javax.sound.midi.Sequencer;
+
+public class MusicTest1 
+{
+public void play() 
+{
+	try
+	{
+		
+	
+	Sequencer sequencer=MidiSystem.getSequencer();
+	sequencer.open();
+	Sequence seq=
+	System.out.println("We got a music plater");
+	}
+	catch(MidiUnavailableException ex)
+	{
+		System.out.println("BUMMER");
+	}
+}
+public static void main(String [] args) 
+{
+	MusicTest1 m=new MusicTest1();
+	m.play();
+}
+}

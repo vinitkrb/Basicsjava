@@ -1,0 +1,22 @@
+package com.hm.Array;
+
+public class BookTest
+{
+public static void main(String [] args)
+	{
+		Books [] myBooks=new Books[3];
+		int x=0;
+		myBooks[0].title="The Grapes of Java";
+		myBooks[1].title = "The Java Gatsby";
+		myBooks[2].title :: ~The Java Cookbook";
+		myBooksIO).author = "bob";
+		myBooksllj.author:: "sue";
+		myBooks(2).author = "ian";
+		wbile (x < 3) {
+		System.ou t.print(myBookslxj.title)i
+		System.out.print(" by U)i
+		System.out.println(rnyBooks[xj.author) ;
+	}
+	}
+	
+

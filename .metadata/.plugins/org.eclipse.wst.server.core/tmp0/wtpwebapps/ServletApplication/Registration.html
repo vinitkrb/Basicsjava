@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Registration Form</title>
+</head>
+<body>
+<h1>Registration Form</h1>
+<form name="f1" method="Post" action="Register">
+<table>
+<tbody>
+<tr>
+<td>Enter Your Name:</td>
+<td><input type="text" name="userName"></td>
+</tr>
+<tr>
+<td>Enter Password</td>
+<td><input type="password" name="pwd"></td>
+</tr>
+<tr>
+<td>Confirm Password</td>
+<td><input type="password" name="pwd"></td>
+</tr>
+<tr>
+<td>Gender:</td>
+<td><input type="radio" name="gender" value="Male">Male&nbsp;
+<input type="radio" name="gender" value="Female">Female</td>
+</tr>
+<tr>
+<td>Hobbies:</td>
+<td><input type="checkbox" name="hobbies" value="Music">Music&nbsp;
+<input type="checkbox" name="hobbies" value="Movies">Movies&nbsp;
+<input type="checkbox" name="hobbies" value="sports">Sports</td>
+</tr>
+<tr>
+<td>Country:</td>
+<td>
+<select name="country">
+<option value="India">India</option>
+<option value="USA">USA</option>
+<option value="UK">UK</option>
+<option value="China">China</option>
+<option value="Australia">Australia</option>
+</select>
+</td>
+</tr>
+<tr>
+<td>Languages Known:</td>
+<td>
+<select name="languages" multiple="multiple">
+<option value="English">English</option>
+<option value="Hindi">Hindi</option>
+<option value="French">French</option>
+<option value="Chinese">Chinese</option>
+<option value="German">German</option>
+</select>
+</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><input type="submit" value="Register" name="btnRegister"></td>
+<td><input type="reset" value="Clear" name="btnClear"></td>
+<tr>
+</tr>
+</tbody>
+
+</table>
+</form>
+</body>
+</html>

@@ -1,0 +1,25 @@
+2017-03-24 14:19:43,913 [Worker-8] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: HM.Vinit:DemoProject:0.0.1-SNAPSHOT @ C:\Users\Vinit.kumar\Desktop\DemoProject\META-INF\maven\HM.Vinit\DemoProject\pom.xml.
+2017-03-24 14:19:46,538 [Worker-8] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /DemoProject/src/main/java
+2017-03-24 14:19:46,538 [Worker-8] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /DemoProject/src/test/java
+2017-03-24 14:19:48,522 [Worker-8] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 8 sec
+2017-03-24 14:19:50,600 [Worker-14] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-03-24 14:19:50,616 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Vinit.kumar\Desktop\DemoProject\META-INF\maven\HM.Vinit\DemoProject\src\main\resources
+2017-03-24 14:19:50,616 [Worker-14] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-03-24 14:19:50,616 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Vinit.kumar\Desktop\DemoProject\META-INF\maven\HM.Vinit\DemoProject\src\test\resources
+2017-03-24 14:20:23,350 [Worker-9] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-03-24 14:20:23,366 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Vinit.kumar\Desktop\DemoProject\META-INF\maven\HM.Vinit\DemoProject\src\main\resources
+2017-03-24 14:20:23,366 [Worker-9] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-03-24 14:20:23,366 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Vinit.kumar\Desktop\DemoProject\META-INF\maven\HM.Vinit\DemoProject\src\test\resources
+2017-03-24 14:21:42,161 [Worker-1] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2017-03-24 14:21:42,833 [Worker-1] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: HM.Vinit:DemoProject:0.0.1-SNAPSHOT @ C:\Users\Vinit.kumar\Desktop\DemoProject\META-INF\maven\HM.Vinit\DemoProject\pom.xml.
+2017-03-24 14:21:43,880 [Worker-1] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /DemoProject/src/main/java
+2017-03-24 14:21:43,880 [Worker-1] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /DemoProject/src/test/java
+2017-03-24 14:21:44,661 [Worker-1] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for DemoProject
+2017-03-24 14:21:44,708 [Worker-1] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 2 sec
+2017-03-24 14:21:45,130 [Worker-9] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-03-24 14:21:45,130 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Vinit.kumar\Desktop\DemoProject\META-INF\maven\HM.Vinit\DemoProject\src\main\resources
+2017-03-24 14:21:45,130 [Worker-9] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-03-24 14:21:45,130 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Vinit.kumar\Desktop\DemoProject\META-INF\maven\HM.Vinit\DemoProject\src\test\resources
+2017-03-24 14:21:45,130 [Worker-9] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of DemoProject
+2017-03-24 14:21:45,130 [Worker-9] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for DemoProject
+2017-03-24 14:21:45,192 [Worker-9] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!

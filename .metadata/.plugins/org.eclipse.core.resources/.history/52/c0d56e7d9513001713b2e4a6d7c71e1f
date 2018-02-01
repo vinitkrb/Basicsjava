@@ -1,0 +1,10 @@
+package com.vk.basic;
+
+public class PhraseOMatic {
+
+	public static void main(String[] args)
+	{
+		String [] WordList1={};
+	}
+
+}
